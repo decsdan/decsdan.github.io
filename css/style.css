@@ -6,9 +6,6 @@
     --dark: #000000;
 }
 
-*{
-    font-size: 2vw;
-}
 
 .back-to-top {
     position: fixed;
