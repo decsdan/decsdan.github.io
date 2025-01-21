@@ -1,8 +1,8 @@
 /********** My Own Code **********/
 
-.strong{
-    font-size: 125%;
-    font-weight: bold;
+.strong {
+    font-size: 200% !important;
+    font-weight: 900px !important;
 }
 
 /********** Template CSS **********/
