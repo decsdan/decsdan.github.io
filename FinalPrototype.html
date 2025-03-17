@@ -79,7 +79,7 @@
                 ><i class="fa fa-project-diagram me-2"></i> CarlSwap
               </a>
               <div class="dropdown-menu bg-transparent border-0 show">
-                <a href="HCISummary.html" class="dropdown-item active nav-item nav-link">
+                <a href="HCISummary.html" class="dropdown-item nav-item nav-link">
                     <abbr title="A Human Computer Interaction Project">
                     </i>Summary</abbr
                   ></a>
@@ -91,9 +91,11 @@
                     <a href="HCIPrototype2Eval.html" class="dropdown-item nav-item nav-link">
                     
                         </i>UX Evaluation</a>
-                    <a href="FinalPrototype.html" class="dropdown-item nav-item nav-link">
+
+                    <a href="FinalPrototype.html" class="dropdown-item nav-item nav-link active">
                     
                     </i>Final Prototype</a>
+    
               </div>
             </div>
           </div>
@@ -194,53 +196,87 @@
 
         <!-- Blank Start -->
         <div class="container-fluid pt-4 px-4">
-          <div
-            class="row bg-secondary rounded align-items-center justify-content-center mx-0"
-          >
-            <div class="col-md-6 text-center">
-              <div class="row py-3"><h1>CarlSwap</h1></div>
-              <div class="row">
-                <h6>Created by:</h6>
-              </div>
-              <div class="row pb-3">
-                <h4>
-                  Daniel Scheider, Lucky Beulla Muhoza, Owen Xu, and Kritika
-                  Pandit
-                </h4>
-              </div>
-              <div class="row py-3 align-items-center justify-content-center">
-              <p>
-                CarlSwap is a thought experiment from a Human Computer Interaction course, 
-                developed with the intention to reduce waste on college campuses by providing an easy to use system to purchase 
-                and sell unused items throughout the year,
-                 and get information on various nonprofit/sustainability events on campus. 
-              </p>
-            </div>
-            </div>
-            <div class="row align-items-start justify-content-start">
-                <h4> Initial Prototype</h4>
-                </div>
-            <div class="row align-items-start justify-content-start">
-                
-              <img
-                class="rounded"
-                src="img/FigmaPrototype1.png"
-                alt="Prototype 1 of CarlSwap"
-                style="width: 80vw; align-self: flex-start"
-              />
+          <div class="row bg-secondary rounded align-items-center justify-content-center mx-0 py-3">
+            
+           <h1 class = " py-5 align-items-center justify-content-center text-center"> UX Evaluation</h1>
+
+           <div class = "row py-5 align-items-center justify-content-center">
+           <div class="row  align-items-center justify-content-center py-2"> <h3> Evaluation Metrics: </h3></div>
+           <div class="row  align-items-center justify-content-center text-center py-2"> <h6> Task Completion Time: </h6> The time it takes for a user to complete a specific task</div>
+           <div class="row  align-items-center justify-content-center text-center py-2"> <h6 > Action Error Rate: </h6> The number of times the wrong button was clicked</div>
+           <div class="row  align-items-center justify-content-center text-center py-2"> <h6> Navigation Error Rate: </h6> The number of times a navigation error was made</div>
             </div>
 
-            <div class="row align-items-center justify-content-center py-3">
-              <p>
-                This prototype addresses initial user needs, as it has a way for
-                students to buy and sell items throughout the year, making
-                things easier on CCCE and ECO. This also includes a login,
-                meaning ONLY carleton students will be utilizing this
-                app/website. This login will also have admin accounts (CCCE
-                members), who will have access to what gets bought/sold, as well
-                as a way to document what gets bought and sold during NSW.
-              </p>
+
+            <div class = "row py-5 align-items-center justify-content-center">
+           <h3> Evaluation: Sticky Notes</h3>
+           <div class="row py-5 align-items-center justify-content-center text-center"> 2 Stakeholders (Carleton Students) were asked to complete three tasks, 
+            and were asked to note any observations, critiques, or compliments on sticky notes, and
+             sort them into two categories: Efficiency and Clarity. While this was being done, 
+             Evaluation Metrics were recorded for each task.</div>
             </div>
+
+
+            <div class = "row py-5 align-items-center justify-content-center">
+                <h3> Results: </h3>
+
+                <div class="row  align-items-center justify-content-center text-center py-5">
+                        Users found Navigation between pages intuitive, as there was a consistent navigation bar at the bottom, 
+                        as well as clearly labeled buttons. Users found the Material Design 3 format (from Google) professional, consistent, and minimalist.
+                        There were a few issues with finding exactly what was interactible on the buy and sell pages, and the lack of dates or a specific calendar meant finding the next event caused some confusion. 
+                        These issues were improved upon in my <a href="FinalPrototype.html" class="dropdown-item">High Fidelity Prototype</a>.
+                    </div>
+                <div class="row  align-items-center justify-content-center text-center py-5">
+                <div class = "col-6 align-items-center justify-content-center">
+                <div class="row  align-items-center justify-content-center text-center py-2"> <h6> Task 1: Navigate to Purchase an Item </h6> Time: 45 Seconds <br> Action Errors: 2 <br> Navigation Errors: 0</div>
+                <div class="row py-5 align-items-center justify-content-center text-center"> "Your UI looks Professional" </div>
+            </div>
+            <div class = "col-6 align-items-center justify-content-center">
+                    <video controls style = "width: 50%;" class="rounded mx-auto">
+                      <source src="img/PurchaseItemFlow.mp4"  type="video/mp4" />
+                    </video>
+
+            </div>
+        </div>
+
+        <div class="row  align-items-center justify-content-center text-center py-5">
+            <div class = "col-6 align-items-center justify-content-center">
+                <div class="row  align-items-center justify-content-center text-center py-2"> <h6> Task 2: Navigate to List an Item for Sale </h6> Time: 35 Seconds <br> Action Errors: 1 <br> Navigation Errors: 0</div>
+                <div class="row py-5 align-items-center justify-content-center text-center"> "The buttons on your sell page are a little unclear"</div>
+                  
+                </div>
+
+                <div class = "col-6 align-items-center justify-content-center">
+                    <video controls style = "width: 50%;" class="rounded mx-auto">
+                        <source src="img/ItemPostFlow.mp4"  type="video/mp4" />
+                      </video>
+
+                </div>
+                </div>
+
+
+                <div class="row  align-items-center justify-content-center text-center py-5">
+                    <div class = "col-6 align-items-center justify-content-center">
+                <div class="row  align-items-center justify-content-center text-center py-2"> <h6> Task 3: Navigate to find when the next weekly event is </h6> Time: 75 Seconds <br> Action Errors: 3 <br> Navigation Errors: 1</div>
+                <div class="row py-5 align-items-center justify-content-center text-center"> "There's no link to a Calendar with dates" </div>
+    
+                </div>
+
+                <div class = "col-6 align-items-center justify-content-center">
+                    <video controls style = "width: 50%;" class="rounded mx-auto">
+                        <source src="img/VolunteerEventsFlow.mp4"  type="video/mp4" />
+                      </video>
+
+                </div>
+                </div>
+            </div>
+
+
+                 <div class = "row py-5 align-items-center justify-content-center">
+                    
+
+
+                     </div>
           </div>
         </div>
         <!-- Blank End -->
