@@ -5,9 +5,9 @@
 /********** Template CSS **********/
 :root {
     --primary: #EB1616;
-    --secondary: #191C24;
-    --light: #ffffff;
-    --dark: #000000;
+    --secondary: rgba(255, 255, 255, 0.12);
+    --light: #fff;
+    --dark: #121212;
 }
 
 
